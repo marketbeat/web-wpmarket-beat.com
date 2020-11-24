@@ -1,0 +1,319 @@
+<style>/* Add your CSS code here.
+
+  For example:
+  .example {
+      color: red;
+  }
+
+  For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+
+#fcdc00	Amarillo
+# 4c1ae0	Azul morado
+# 252549	Azul Oscuro
+# f9f8fa	Gris claro (Fondo)
+# 797979	Gris Oscuro (cuerpos de texto)
+# ffffff	Blanco
+
+
+
+  End of comment */ 
+
+  .primary-menu > li > .icon{
+    color: #fcdc00 !important;
+
+  }
+
+  .toggle-text {
+    display: none;
+  }
+
+  h1, .bg-morado-claro .wp-block-column p, .banner2-usee p, .bg-morado-claro a, body:not(.overlay-header) #site-header .toggle{
+    color: #fff !important;
+  }
+
+  .featured-media {
+    background-color: #252549 !important;
+  }
+
+  body {
+    background-color: #252549 !important;
+    /* background-color: none !important; */
+    background-image: url("http://54.147.139.183/wp-content/uploads/2020/11/Banner_inicio-1.png");
+    height: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .entry-header {
+    background-color:rgba(37, 37, 73, 0) !important;
+    /* background-color: none !important; */
+    /* opacity: 50% !important; */
+    /* background-image: url("http://54.147.139.183/wp-content/uploads/2020/11/Banner_inicio-1.png");
+    height: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover; */
+  }
+
+  #site-header{
+    background-color:rgba(37, 37, 73, 0) !important;
+    /* background-color: none !important; */
+    /* opacity: 50% !important; */
+  }
+
+  .menu-item a{
+    color: #fff !important;
+    text-decoration: none !important;
+  }
+
+  .menu-item a:hover, .has-text-align-right a:hover{
+    color: #fcdc00 !important;
+  }
+
+  .menu-menu-in-spanish-servicios-container, .menu-menu-in-english-services-container{
+    background-color: #252549 !important;
+    }
+
+  .menu-menu-in-spanish-servicios-container ul, .menu-menu-in-english-services-container ul{
+    width: 100%;
+    display: table;
+    text-align: center;
+    border-top: 1px white solid;
+   }
+
+  .menu-menu-in-spanish-servicios-container li, .menu-menu-in-english-services-container li{
+    display: inline-block;
+    float: none;
+    margin: 3rem 0;
+   }
+
+   .menu-menu-in-spanish-servicios-container li a, .menu-menu-in-english-services-container li a{
+    padding: 5rem 3rem;
+    font-weight: normal;
+  }
+
+
+  .bg-frase-top{
+    padding: 10rem 10rem !important;
+  }
+
+  .widget.widget_nav_menu.amr_widget, .bg-morado-claro, .banner2-usee, .ucount-grid {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  .wp-block-group__inner-container h3, .wp-block-group__inner-container h4,  .bg-frase-top p, #search-form-1{
+    color: #252549 !important;
+  }
+
+  .wp-block-column h4, .wp-block-media-text__content h4{
+    color: #252549 !important;
+  }
+
+  .wp-block-column h4{
+    padding-left: 2rem !important;
+  }
+
+  .post-inner.thin, .entry-content{
+    background-color: #eeeff0 !important;
+  } 
+
+  .wp-block-columns .wp-block-group, .wp-block-media-text__content, .ucount-grid{
+    background-color: #ffffff !important;
+    padding-bottom: 8rem;
+  }
+
+  .wp-block-group.alignwide{
+    background-color: #eeeff0 !important;
+    /* padding-bottom: 10rem !important; */
+  }
+
+  .wp-block-column p {
+    color: #797979 !important;
+    padding-left: 2rem !important;
+  }
+
+  .wp-block-media-text__content, .bg-gray-bottom p, .banner1-usee p,  .wp-block-media-text__content a{
+    color: #797979 !important;
+  }
+
+  .is-style-outline .wp-block-button__link, .wp-block-button__link.is-style-outline {
+    color: #252549 !important;
+    border: 0 solid;
+    text-decoration: none;
+  }
+  .has-text-align-right a {
+    color: #252549 !important;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+  .wp-block-media-text__content h2, .wp-block-media-text__content strong, .text-morado h2, .bg-gray-bottom h2, .grid-caract h2, .banner1-usee h4{
+    color: #4c1ae0 !important;
+  }
+
+  .bg-gray-bottom{
+    padding-top: 5rem !important;
+    padding-bottom: 10rem !important;
+    padding-right: 20rem !important;
+    padding-left: 20rem !important;
+  }
+
+  .banner2-usee{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10rem 0;
+  }
+
+  .grid-caract{
+    padding-bottom: 5rem !important;
+  }
+
+  .grid-caract h2{
+    padding: 0rem 10rem 5rem 10rem !important;
+  }
+
+  .bg-gray .wp-block-media-text__content, .bg-gray{
+    background-color: #eeeff0 !important;
+  }
+
+  .bg-morado, .banner2-usee, .banner2-usee .wp-block-media-text__content, .wp-block-group.alignwide.banner2-usee{
+    background-color: #252549 !important;
+  }
+
+  .bg-morado-claro{
+    background-color: #4c1ae0 !important;
+    padding-top: 5rem;
+    padding-bottom: 5rem; 
+  }
+
+  .bg-morado h2, .bg-morado-claro, .banner2-usee h4{
+    color: #fcdc00 !important;
+  }
+  .bg-morado-claro h2 {
+    margin-top: 0 !important;
+  }
+     
+
+  .bg-morado p {
+    color: #fff !important;
+  }
+
+  .footer-top-visible .footer-nav-widgets-wrapper, .footer-top-hidden #site-footer {
+    margin-top: 5rem;
+  }
+
+  #site-content .header-footer-group{
+    background-color: none !important;
+  }
+
+
+  .footer-nav-widgets-wrapper, .header-footer-group{
+    background-color: #252549 ;
+    color: #fff !important;
+    border: none;
+  }
+
+  .footer-nav-widgets-wrapper h2{
+    color: #fcdc00 !important;
+  }
+
+  .footer-widgets-outer-wrapper {
+    border-color: #fcdc00 !important;
+  }
+  
+  .footer-top {
+    border: none !important;
+  }
+
+  #menu-social-footer li{
+    display: inline-block !important;
+    margin-right: 3rem;
+  }
+
+
+  /* .reduced-spacing.footer-top-visible .footer-nav-widgets-wrapper{
+    border-top-width: .1rem;
+    border: none;
+} */
+
+  @media (min-width: 700px){
+    .wp-block-group.bg-morado {
+        width: 100% !important; 
+        max-width: 100% !important; 
+        padding: 10rem 0; 
+    } 
+
+    .text-morado{
+      padding: 5rem 20rem !important;
+      text-align: center;
+    }
+  }
+
+  @media (min-width: 700px){
+    .wp-block-group.bg-morado {
+        width: 100% !important; 
+        max-width: 100% !important; 
+        padding: 10rem 0; 
+    } 
+
+    .text-morado{
+      padding: 5rem 20rem !important;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 700px){
+    .bg-frase-top {
+      padding: 1rem 1rem !important;
+    }
+    .bg-gray-bottom {
+      padding-right: 1rem!important;
+      padding-left: 1rem!important;
+    }
+    .bg-morado{
+        padding: 3rem 1rem !important;
+        margin: 0 !important;
+        width: 100% !important;
+    }
+    .bg-morado-claro{
+      padding: 3rem 1rem !important;
+      margin: 0 !important;
+      width: 100% !important;
+      margin-top: 10rem !important;
+    }
+    .bg-frase-top p span{
+      font-size: 20pt !important;
+    }
+    .grid-caract h2 {
+      padding: 0 !important;
+    }
+    .banner2-usee, .bg-gray-bottom {
+      padding-top: 3rem !important;
+      padding-bottom: 3rem !important;
+    }
+    .ucount-grid h2{
+      padding: 3rem 3rem !important;
+      text-align: center !important;
+    }
+    .menu-modal-inner{
+     background-color: #252549 !important;
+    }
+    .menu-modal-inner li, .menu-modal-inner button {
+      border: none !important;
+    }
+    .menu-menu-in-spanish-servicios-container, .menu-menu-in-english-services-container{
+      display: none !important;
+      }
+  }
+
+  /* body.custom-background{
+    background-image: url("http://54.147.139.183/wp-content/themes/mbeatfiles/img/banner_inicio.png");
+  } */
+
+</style>
+
