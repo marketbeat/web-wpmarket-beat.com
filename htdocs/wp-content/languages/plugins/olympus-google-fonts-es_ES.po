@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Fonts Plugin | Google Fonts Typography - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-11-18 09:58:56+0000\n"
+"PO-Revision-Date: 2020-11-24 17:34:32+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,27 +11,35 @@ msgstr ""
 "Language: es\n"
 "Project-Id-Version: Plugins - Fonts Plugin | Google Fonts Typography - Stable (latest release)\n"
 
+#: includes/customizer/settings.php:197
+msgid "Remove font controls from the individual post editor screen (Gutenberg and Classic)."
+msgstr "Elimina los controles de fuentes de la pantalla del editor de entradas individuales (Gutenberg y clásico)."
+
+#: includes/customizer/settings.php:193
+msgid "Disable Editor Controls"
+msgstr "Desactivar controles del editor"
+
 #: includes/customizer/controls/class-ogf-customize-typography-control.php:303
 msgid "None"
 msgstr "Ninguno"
 
-#: includes/customizer/settings.php:199
+#: includes/customizer/settings.php:219
 msgid "Optional"
 msgstr "Opcional"
 
-#: includes/customizer/settings.php:198
+#: includes/customizer/settings.php:218
 msgid "Fallback"
 msgstr "Respaldo"
 
-#: includes/customizer/settings.php:197
+#: includes/customizer/settings.php:217
 msgid "Block"
 msgstr "Bloquear"
 
-#: includes/customizer/settings.php:196
+#: includes/customizer/settings.php:216
 msgid "Swap"
 msgstr "Intercambiar"
 
-#: includes/customizer/settings.php:194
+#: includes/customizer/settings.php:214
 msgid "Font Display"
 msgstr "Visualización de la fuente"
 
@@ -218,7 +226,7 @@ msgid "Thin Italic"
 msgstr "Thin Italic"
 
 #: includes/customizer/controls/class-ogf-customize-typography-control.php:132
-#: blocks/dist/blocks.build.js:1 blocks/src/google-fonts/edit.js:36
+#: blocks/src/google-fonts/edit.js:36 blocks/dist/blocks.build.js:1
 msgid "- Custom Fonts -"
 msgstr "- Fuentes personalizadas -"
 
@@ -243,7 +251,7 @@ msgstr "No ha sido posible cargar el feed temporalmente."
 msgid "Typography News"
 msgstr "Tipografía de las noticias"
 
-#: includes/customizer/settings.php:56 includes/customizer/panels.php:159
+#: includes/customizer/panels.php:159 includes/customizer/settings.php:56
 msgid "Load Fonts Only"
 msgstr "Cargar solo las fuentes"
 
@@ -268,12 +276,12 @@ msgid "Advanced"
 msgstr "Avanzado"
 
 #: includes/customizer/controls/class-ogf-customize-typography-control.php:141
-#: blocks/dist/blocks.build.js:1 blocks/src/google-fonts/edit.js:70
+#: blocks/src/google-fonts/edit.js:70 blocks/dist/blocks.build.js:1
 msgid "- Google Fonts -"
 msgstr "- Google Fonts -"
 
 #: includes/customizer/controls/class-ogf-customize-typography-control.php:137
-#: blocks/dist/blocks.build.js:1 blocks/src/google-fonts/edit.js:52
+#: blocks/src/google-fonts/edit.js:52 blocks/dist/blocks.build.js:1
 msgid "- System Fonts -"
 msgstr "- Fuentes del sistema -"
 
@@ -342,8 +350,8 @@ msgstr "Barra lateral"
 msgid "Theme Settings"
 msgstr "Ajustes del tema"
 
-#: includes/class-ogf-fonts-taxonomy.php:66 blocks/dist/blocks.build.js:1
-#: blocks/src/google-fonts/edit.js:242
+#: includes/class-ogf-fonts-taxonomy.php:66 blocks/src/google-fonts/edit.js:242
+#: blocks/dist/blocks.build.js:1
 msgid "Font"
 msgstr "Fuente"
 
@@ -393,8 +401,8 @@ msgstr "Ajustes avanzados"
 msgid "Basic Settings"
 msgstr "Ajustes básicos"
 
-#: includes/customizer/panels.php:32 blocks/dist/blocks.build.js:1
-#: blocks/src/google-fonts/index.js:12
+#: includes/customizer/panels.php:32 blocks/src/google-fonts/index.js:12
+#: blocks/dist/blocks.build.js:1
 msgid "Google Fonts"
 msgstr "Fuentes de Google"
 
@@ -411,7 +419,7 @@ msgid "Color"
 msgstr "Color"
 
 #: includes/customizer/controls/class-ogf-customize-typography-control.php:52
-#: blocks/dist/blocks.build.js:1 blocks/src/google-fonts/edit.js:264
+#: blocks/src/google-fonts/edit.js:264 blocks/dist/blocks.build.js:1
 msgid "Line Height"
 msgstr "Alto de línea"
 
@@ -469,8 +477,8 @@ msgstr "Si tus elecciones no se muestran correctamente, marca esta casilla de ve
 msgid "Force Styles?"
 msgstr "¿Forzar estilos?"
 
-#: includes/customizer/settings.php:38 includes/customizer/panels.php:71
-#: includes/customizer/panels.php:101
+#: includes/customizer/panels.php:71 includes/customizer/panels.php:101
+#: includes/customizer/settings.php:38
 msgid "Custom Elements"
 msgstr "Elementos personalizados"
 
@@ -484,55 +492,55 @@ msgstr "¡Gracias por instalar <strong>Google Fonts for WordPress</strong>! Conf
 #: includes/customizer/controls/class-ogf-customize-typography-control.php:273
 #: includes/customizer/controls/class-ogf-customize-typography-control.php:287
 #: includes/customizer/controls/class-ogf-customize-typography-control.php:299
-#: blocks/dist/blocks.build.js:1 blocks/src/google-fonts/edit.js:129
+#: blocks/src/google-fonts/edit.js:129 blocks/dist/blocks.build.js:1
 msgid "- Default -"
 msgstr "- Por defecto -"
 
-#: includes/functions.php:314 blocks/dist/blocks.build.js:1
-#: blocks/src/google-fonts/edit.js:138
+#: includes/functions.php:314 blocks/src/google-fonts/edit.js:138
+#: blocks/dist/blocks.build.js:1
 msgid "Ultra Bold"
 msgstr "Ultra negrita"
 
-#: includes/functions.php:313 blocks/dist/blocks.build.js:1
-#: blocks/src/google-fonts/edit.js:137
+#: includes/functions.php:313 blocks/src/google-fonts/edit.js:137
+#: blocks/dist/blocks.build.js:1
 msgid "Extra Bold"
 msgstr "Extra negrita"
 
 #: includes/functions.php:312
 #: includes/customizer/controls/class-ogf-customize-typography-control.php:265
-#: blocks/dist/blocks.build.js:1 blocks/src/google-fonts/edit.js:136
+#: blocks/src/google-fonts/edit.js:136 blocks/dist/blocks.build.js:1
 msgid "Bold"
 msgstr "Negrita"
 
-#: includes/functions.php:311 blocks/dist/blocks.build.js:1
-#: blocks/src/google-fonts/edit.js:135
+#: includes/functions.php:311 blocks/src/google-fonts/edit.js:135
+#: blocks/dist/blocks.build.js:1
 msgid "Semi Bold"
 msgstr "Semi negrita"
 
-#: includes/functions.php:310 blocks/dist/blocks.build.js:1
-#: blocks/src/google-fonts/edit.js:134
+#: includes/functions.php:310 blocks/src/google-fonts/edit.js:134
+#: blocks/dist/blocks.build.js:1
 msgid "Medium"
 msgstr "Mediana"
 
 #: includes/functions.php:309
 #: includes/customizer/controls/class-ogf-customize-typography-control.php:264
 #: includes/customizer/controls/class-ogf-customize-typography-control.php:288
-#: blocks/dist/blocks.build.js:1 blocks/src/google-fonts/edit.js:133
+#: blocks/src/google-fonts/edit.js:133 blocks/dist/blocks.build.js:1
 msgid "Normal"
 msgstr "Normal"
 
-#: includes/functions.php:308 blocks/dist/blocks.build.js:1
-#: blocks/src/google-fonts/edit.js:132
+#: includes/functions.php:308 blocks/src/google-fonts/edit.js:132
+#: blocks/dist/blocks.build.js:1
 msgid "Light"
 msgstr "Light"
 
-#: includes/functions.php:307 blocks/dist/blocks.build.js:1
-#: blocks/src/google-fonts/edit.js:131
+#: includes/functions.php:307 blocks/src/google-fonts/edit.js:131
+#: blocks/dist/blocks.build.js:1
 msgid "Extra Light"
 msgstr "Extra light"
 
-#: includes/functions.php:306 blocks/dist/blocks.build.js:1
-#: blocks/src/google-fonts/edit.js:130
+#: includes/functions.php:306 blocks/src/google-fonts/edit.js:130
+#: blocks/dist/blocks.build.js:1
 msgid "Thin"
 msgstr "Fina"
 
